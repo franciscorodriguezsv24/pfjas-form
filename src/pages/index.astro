@@ -1,8 +1,24 @@
 ---
 import PfjasLayout from "../layouts/pfjasLayout.astro"
+import HeaderTitle from "../components/about-us/header-title.astro"
+import Coordinadores from "../components/about-us/coordinadores.astro"
+import CarrusellTestimonies from "../components/about-us/carrusell-testimonies.tsx"
 ---
 
 <PfjasLayout>
-  <h1>Welcome to the Astro Project</h1>
-  <p>This is the home page of your Astro project.</p>
+  <section class="flex items-center justify-center h-screen bg-[#0B1F1D]">
+    <HeaderTitle/>
+  </section>
+  <section class="flex items-center justify-center h-screen">
+    <Coordinadores/>
+  </section>
+  <section class="flex items-center justify-center h-screen w-full bg-green-800">
+    <div class="w-10/12">
+      <CarrusellTestimonies client:only/>
+    </div>
+  </section>
+  <section>
+
+  </section>
+
 </PfjasLayout>

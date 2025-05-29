@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@layer base {
+    :root {
+    --primary:  #0B1F1D;
+    --secondary: #F5F4F2;
+    --accent: #F4D047;
+    }
+}
+
+@layer utilities {
+  .scroll-enhance-header {
+    animation: enhance-header linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 200px;
+    background-color: #F5F4F2;
+  }
+}
+
+@keyframes enhance-header {
+  to {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    color: black;
+  }
+}
+
+
+
