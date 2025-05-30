@@ -12,6 +12,11 @@ export default {
         'secondary-var': 'var(--secondary)',
         'accent-var': 'var(--accent)',
       },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
+        'sans': ['Poppins', 'system-ui', 'sans-serif'], // Cambia la fuente por defecto
+      }
     }
   },
   plugins: []

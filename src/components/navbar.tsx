@@ -27,7 +27,7 @@ const Navbar = () => {
 <>
       <header>
         <nav className="flex flex-row justify-between items-center relative scroll-enhance-header">
-          <h1 className="w-3/6 p-4">PFJAS El Salvador</h1>
+          <h1 className="w-3/6 p-2 text-lg md:text-xl font-semibold">PFJAS 2025</h1>
           
           <button 
             onClick={openMenu}
@@ -54,7 +54,7 @@ const Navbar = () => {
 
       {/* Mobile menu - FUERA del header */}
       <div 
-        className={`fixed top-0 right-0 h-full w-3/6 bg-white shadow-lg z-[9999] transform transition-transform duration-300 md:hidden ${
+        className={`fixed top-0 right-0 h-full w-3/6 bg-gray-100 shadow-lg z-[9999] transform transition-transform duration-300 md:hidden ${
           isMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
