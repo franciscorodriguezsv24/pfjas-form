@@ -14,10 +14,14 @@
     "@tailwindcss/vite": "^4.1.7",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
+    "aos": "^2.3.4",
     "astro": "^5.8.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "swiper": "^11.2.8",
     "tailwindcss": "^4.1.7"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7"
   }
 }
