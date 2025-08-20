@@ -11,14 +11,16 @@ import CarrusellTestimonies from "../components/about-us/carrusell-testimonies.t
   >
     <HeaderTitle />
   </section>
-  <section class="flex items-center justify-center h-auto bg-[#0B1F1D]">
-    <Coordinadores client:visible />
+  <section class="flex items-center justify-center h-auto bg-[#021c1e]">
+    <Coordinadores client:load />
   </section>
   <section
-    class="flex items-center justify-center h-screen w-full bg-green-800"
+    class="flex items-center justify-center h-screen w-full bg-[#f6d233]"
   >
     <div class="w-10/12 h-10/12 mx-auto">
-      <h1 class="text-center mb-10">Que encontraras en el PFJAS??</h1>
+      <h1 class="text-center mb-10 text-[#021c1e] font-bold text-2xl">
+        ¿Qué es el PFJAS?
+      </h1>
       <CarrusellTestimonies client:only />
     </div>
   </section>

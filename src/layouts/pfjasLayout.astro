@@ -5,24 +5,28 @@ import { ClientRouter } from "astro:transitions";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>PFJAS El Salvador</title>
-        <ClientRouter />
-	</head>
-	<body>
-        <header class="fixed top-0 z-50 w-full">
-            <Navbar client:load/>
-        </header>
-        <section>
-		    <slot />
-        </section>
-        <footer>
-            <p>&copy; 2023 PFJAS El Salvador</p>
-            <p>Follow us on <a href="https://www.facebook.com/pfjaselsalvador">Facebook</a> and <a href="https://www.instagram.com/pfjaselsalvador">Instagram</a></p>
-        </footer>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>PFJAS El Salvador</title>
+    <ClientRouter />
+  </head>
+  <body>
+    <header class="fixed top-0 z-50 w-full">
+      <Navbar client:load />
+    </header>
+    <section>
+      <slot />
+    </section>
+    <footer class="bg-[#021c1e] py-10 px-5">
+      <p class="text-[#f6d233]">&copy; 2023 PFJAS El Salvador</p>
+      <p class="text-[#f6d233]">
+        Follow us on <a href="https://www.facebook.com/pfjaselsalvador"
+          >Facebook</a
+        > and <a href="https://www.instagram.com/pfjaselsalvador">Instagram</a>
+      </p>
+    </footer>
+  </body>
 </html>

@@ -8,39 +8,25 @@ const Coordinadores = () => {
   }, []);
 
   return (
-    <div className="text-center">
-      <h1>Conoce a nuestros coordinadores</h1>
+    <div className="text-center pt-10">
+      <h1 className="text-[#f6d233] bg-[#021c1e] ">Conoce a nuestros coordinadores</h1>
       <div className="space-y-10 mt-10">
         {/* Coordinador 1 */}
         <div
           className="flex flex-col md:flex-row justify-center items-center w-full"
           data-aos="fade-up"
         >
-          <div className="w-xs sm:w-xl bg-white">
+          <div>
             <img
               src="/img/coordinador.webp"
-              className="w-full relative top-2 left-2"
+              className="w-60 h-60 object-cover object-bottom rounded-full "
               alt="Coordinador"
             />
           </div>
-          <div className="w-4/6 bg-white">
-            <p className="p-5 relative text-sm block sm:hidden bg-red-400 left-2 top-2">
-              Hola, soy Aaron Amaya, tengo 24 años y actualmente estoy cursando
-              el último ciclo de la Licenciatura en Radiología e Imágenes. Me
-              bauticé en 2010 y viví en Panamá durante dos años y medio.
-            </p>
-            <p className="text-sm hidden sm:block">
-              Hola, soy Aaron Amaya, tengo 24 años y actualmente estoy cursando
-              el último ciclo de la Licenciatura en Radiología e Imágenes. Me
-              bauticé en 2010 y viví en Panamá durante dos años y medio. He
-              tenido la oportunidad de servir en diversos llamamientos;
-              actualmente sirvo como Secretario de Barrio y en el área de
-              Publicidad del Centro JAS San Salvador. Disfruto mucho cantar,
-              bailar, jugar fútbol y practicar la mayoría de los deportes.
-              También me gustan mucho los videojuegos. Uno de mis talentos es la
-              fotografía, capturar momentos y diseño de publicidad. Mi escritura
-              favorita es Josué 1:9, porque nos recuerda que no debemos temer,
-              ya que Dios siempre estará con nosotros.
+          <div className="w-5/6 pt-7">
+            <h2 className="text-[#f6d233] bg-[#021c1e] font-bold">Aaron Amaya</h2>
+            <p className="p-5 text-sm block sm:hidden text-[#f6d233] bg-[#021c1e]">
+              Hola, soy Aaron Amaya, tengo 24 años y estoy en el último ciclo de la Licenciatura en Radiología e Imágenes. Me bauticé en 2010. Me gusta cantar, bailar, jugar fútbol, practicar deportes y también los videojuegos. Uno de mis talentos es la fotografía y el diseño publicitario. Mi escritura favorita es Josué 1:9 porque me recuerda que no debo temer, ya que Dios siempre está conmigo.
             </p>
           </div>
         </div>
@@ -51,31 +37,19 @@ const Coordinadores = () => {
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div className="w-xs sm:w-xl bg-white">
+          <div>
             <img
               src="/img/coordinadora.webp"
-              className="w-full relative top-2 left-2"
+              className="w-60 h-60 object-cover object-bottom rounded-full "
               alt="Coordinadora"
             />
           </div>
-          <div className="w-4/6 bg-white">
-            <p className="p-5 relative text-sm block sm:hidden bg-red-400 left-2 top-2">
-              Hola, soy Aaron Amaya, tengo 24 años y actualmente estoy cursando
-              el último ciclo de la Licenciatura en Radiología e Imágenes. Me
-              bauticé en 2010 y viví en Panamá durante dos años y medio.
-            </p>
-            <p className="text-sm hidden sm:block">
-              Hola, soy Aaron Amaya, tengo 24 años y actualmente estoy cursando
-              el último ciclo de la Licenciatura en Radiología e Imágenes. Me
-              bauticé en 2010 y viví en Panamá durante dos años y medio. He
-              tenido la oportunidad de servir en diversos llamamientos;
-              actualmente sirvo como Secretario de Barrio y en el área de
-              Publicidad del Centro JAS San Salvador. Disfruto mucho cantar,
-              bailar, jugar fútbol y practicar la mayoría de los deportes.
-              También me gustan mucho los videojuegos. Uno de mis talentos es la
-              fotografía, capturar momentos y diseño de publicidad. Mi escritura
-              favorita es Josué 1:9, porque nos recuerda que no debemos temer,
-              ya que Dios siempre estará con nosotros.
+          <div className="w-5/6 pt-7">
+            <h2 className="text-[#f6d233] bg-[#021c1e]">
+              Rubi Henríquez
+            </h2>
+            <p className="p-5 text-sm block sm:hidden text-[#f6d233] bg-[#021c1e]">
+              Hola, tengo 26 años, soy internacionalista y estudio en BYU–Idaho. Me bauticé en 2016 y serví una misión en Panamá del 2021 al 2023. Me gusta bailar, hacer pilates y disfrutar de historias románticas. Una de mis escrituras favoritas es 2 Nefi 26:24 porque me recuerda que todo en el plan de Dios tiene un propósito.
             </p>
           </div>
         </div>
@@ -86,31 +60,16 @@ const Coordinadores = () => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <div className="w-xs sm:w-xl bg-white">
+          <div>
             <img
               src="/img/compas.webp"
-              className="w-full relative top-2 left-2"
+              className="w-60 h-60 object-cover object-bottom rounded-full"
               alt="Coordinadores"
             />
           </div>
-          <div className="w-4/6 bg-white">
-            <p className="p-5 relative text-sm block sm:hidden bg-red-400 left-2 top-2">
-              Hola, soy Aaron Amaya, tengo 24 años y actualmente estoy cursando
-              el último ciclo de la Licenciatura en Radiología e Imágenes. Me
-              bauticé en 2010 y viví en Panamá durante dos años y medio.
-            </p>
-            <p className="text-sm hidden sm:block">
-              Hola, soy Aaron Amaya, tengo 24 años y actualmente estoy cursando
-              el último ciclo de la Licenciatura en Radiología e Imágenes. Me
-              bauticé en 2010 y viví en Panamá durante dos años y medio. He
-              tenido la oportunidad de servir en diversos llamamientos;
-              actualmente sirvo como Secretario de Barrio y en el área de
-              Publicidad del Centro JAS San Salvador. Disfruto mucho cantar,
-              bailar, jugar fútbol y practicar la mayoría de los deportes.
-              También me gustan mucho los videojuegos. Uno de mis talentos es la
-              fotografía, capturar momentos y diseño de publicidad. Mi escritura
-              favorita es Josué 1:9, porque nos recuerda que no debemos temer,
-              ya que Dios siempre estará con nosotros.
+          <div className="w-5/6 pt-10">
+            <p className="p-5 text-sm block sm:hidden text-[#f6d233] bg-[#021c1e]">
+              Queremos invitarte con mucho entusiasmo a participar en el Campamento PFJAS 2025, una oportunidad especial para fortalecer tu fe, hacer nuevos amigos y vivir experiencias inolvidables que te acercarán más al Señor. ¡Te esperamos para compartir juntos momentos de crecimiento, alegría y unidad!
             </p>
           </div>
         </div>
