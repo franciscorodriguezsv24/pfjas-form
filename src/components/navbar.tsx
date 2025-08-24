@@ -11,7 +11,6 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
 
-  // Close menu on resize to desktop
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
@@ -44,9 +43,8 @@ const Navbar = () => {
           <div className="hidden md:block w-3/6">
             <ul className="flex flex-row justify-between items-center w-full p-4">
               <li><a href="/" className="hover:text-gray-600 transition-colors">Home</a></li>
-              <li><a href="/" className="hover:text-gray-600 transition-colors">Testimonies</a></li>
               <li><a href="/about" className="hover:text-gray-600 transition-colors">About Us</a></li>
-              <li><a href="/form" className="hover:text-gray-600 transition-colors">Join Us!</a></li>
+              <li><a href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRxHRFE0aP0BHvB_MG7iEBqlUOTJQSFcwN0RUUzcxRkdNVUdYUlVGSExPWi4u&fbclid=PAQ0xDSwMSLaRleHRuA2FlbQIxMQABp8ubke-Qxti3wA1fVflZfcAOQVfoFox7lZdEsYt_Z_PaqNE8Ed7R01O-SIgH_aem_gUAbZXYvLe3F2-nThtZ_pA&route=shorturls" className="hover:text-gray-600 transition-colors">Join Us!</a></li>
             </ul>
           </div>
         </nav>
@@ -71,9 +69,8 @@ const Navbar = () => {
 
         <ul className="flex flex-col justify-center items-center w-full p-8 h-full space-y-8">
           <li><a href="/" className="hover:text-gray-600 transition-colors text-lg">Home</a></li>
-          <li><a href="/" className="hover:text-gray-600 transition-colors text-lg">Testimonies</a></li>
           <li><a href="/about" className="hover:text-gray-600 transition-colors text-lg">About Us</a></li>
-          <li><a href="/form" className="hover:text-gray-600 transition-colors text-lg">Join Us!</a></li>
+          <li><a href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRxHRFE0aP0BHvB_MG7iEBqlUOTJQSFcwN0RUUzcxRkdNVUdYUlVGSExPWi4u&fbclid=PAQ0xDSwMSLaRleHRuA2FlbQIxMQABp8ubke-Qxti3wA1fVflZfcAOQVfoFox7lZdEsYt_Z_PaqNE8Ed7R01O-SIgH_aem_gUAbZXYvLe3F2-nThtZ_pA&route=shorturls" className="hover:text-gray-600 transition-colors text-lg">Join Us!</a></li>
         </ul>
       </div>
     </>

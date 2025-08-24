@@ -8,6 +8,10 @@ import { ClientRouter } from "astro:transitions";
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Lusitana:wght@400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>PFJAS El Salvador</title>
@@ -20,13 +24,35 @@ import { ClientRouter } from "astro:transitions";
     <section>
       <slot />
     </section>
-    <footer class="bg-[#021c1e] py-10 px-5">
-      <p class="text-[#f6d233]">&copy; 2023 PFJAS El Salvador</p>
-      <p class="text-[#f6d233]">
-        Follow us on <a href="https://www.facebook.com/pfjaselsalvador"
-          >Facebook</a
-        > and <a href="https://www.instagram.com/pfjaselsalvador">Instagram</a>
+    <footer class="bg-[#f6d233] py-10 px-5 flex flex-col items-center gap-5">
+      <p class="text-[#021c1e] flex flex-col">
+        Siguenos en:
+        <div class="flex gap-3">
+          <a
+            href="https://www.facebook.com/profile.php?id=61575857387472"
+            class="bg-[#021c1e] h-10 w-10 rounded-full p-2 flex items-center justify-center"
+            target="_blank"
+          >
+            <img
+              src="/facebookIcon.svg"
+              alt="Facebook"
+              class="inline w-5 h-5 text-[#f6d233]"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/pfjas_elsalvador/"
+            class="bg-[#021c1e] h-10 w-10 rounded-full p-2 flex items-center justify-center"
+            target="_blank"
+          >
+            <img
+              src="/instagramIcon.svg"
+              alt="Facebook"
+              class="inline w-5 h-5"
+            />
+          </a>
+        </div>
       </p>
+      <p class="text-[#021c1e]">&copy; 2025 PFJAS El Salvador</p>
     </footer>
   </body>
 </html>

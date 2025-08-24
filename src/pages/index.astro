@@ -3,6 +3,7 @@ import PfjasLayout from "../layouts/pfjasLayout.astro";
 import HeaderTitle from "../components/about-us/header-title.astro";
 import Coordinadores from "../components/about-us/coordinadores.tsx";
 import CarrusellTestimonies from "../components/about-us/carrusell-testimonies.tsx";
+import CardActivities from "../components/about-us/card-activities";
 ---
 
 <PfjasLayout>
@@ -24,5 +25,16 @@ import CarrusellTestimonies from "../components/about-us/carrusell-testimonies.t
       <CarrusellTestimonies client:only />
     </div>
   </section>
-  <section></section>
+  <section
+    class="flex flex-col items-center justify-center w-full h-screen bg-[#021c1e]"
+  >
+    <h1 class="text-center mb-10 text-[#f6d233] font-bold text-2xl">
+      ¿Qué encontraras en el PFJAS?
+    </h1>
+    <CardActivities client:load />
+    <div class="flex flex-row pt-10 items-center justify-center">
+      <h1 class="text-[#1f5c5c]">Swip it</h1>
+      <img src="/flecha.png" class="h-10 w-10" />
+    </div>
+  </section>
 </PfjasLayout>
