@@ -10,7 +10,7 @@ import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
 
 export default function CarrusellTestimonies() {
   const slides = [
-    { src: '/img/pfjas-love.jpg', alt: 'love', label: 'Amor y comunidad', className:"w-full h-full object-cover object-[50%_50%] rounded-2xl", descriptino: "testinf description"
+    { src: '/img/pfjas-love.jpg', alt: 'love', label: 'Amor y comunidad', className:"w-full h-full object-cover object-[50%_50%] md:object-[20%_20%] rounded-2xl", descriptino: "testinf description"
     },
     { src: '/img/pfjas-friends2.jpg', alt: 'friend', label: 'Amistades genuinas', className:"w-full h-full object-cover object-[35%_65%] rounded-2xl", descriptino: "testinf description" },
     { src: '/img/pfjas-diversion2.jpg', alt: 'diversion', label: 'Momentos de diversión', className:"w-full h-full object-cover object-[50%_50%] rounded-2xl", descriptino: "testinf description" },
